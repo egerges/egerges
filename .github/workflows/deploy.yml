@@ -19,8 +19,8 @@ jobs:
       
     - name: 🔨 Build Project
       run: |
-        npm --prefix /app install
-        npm --prefix /app run build
+        npm install
+        npm run build
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
@@ -29,4 +29,4 @@ jobs:
         username: ${{ secrets.GIT_CPANEL_USER }}
         password: ${{ secrets.GIT_CPANEL_PWD }}
         protocol: ${{ secrets.GIT_CPANEL_PROTOCOL }}
-        local-dir: ./build/
+        local-dir: ./app/build/
