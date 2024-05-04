@@ -10,12 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v3
-
+      uses: actions/checkout@v4
+      
     - name: Use Node.js 20
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
         node-version: '20'
+        cache: 'npm'
       
     - name: 🔨 Build Project
       run: |
