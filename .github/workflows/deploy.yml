@@ -46,7 +46,7 @@ jobs:
 
       # Step to sync built files to the server using FTP
       - name: Sync files to server
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
         with:
           server: ${{ secrets.GIT_CPANEL_SERVER }}
           username: ${{ secrets.GIT_CPANEL_USER }}
