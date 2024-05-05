@@ -60,6 +60,11 @@ jobs:
     if: ${{ github.event_name }} == 'pull_request' && ${{ github.event.action }} == 'closed' && ${{ github.event.pull_request.merged }} == true
 
     steps:
+    # Step to checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # delete and prune
     - name: Delete merged branch
       run: |
         git fetch --prune
