@@ -52,7 +52,6 @@ jobs:
           username: ${{ secrets.GIT_CPANEL_USER }}
           password: ${{ secrets.GIT_CPANEL_PWD }}
           protocol: ${{ secrets.GIT_CPANEL_PROTOCOL }}
-          local-dir: ./app/build/
 
   # Cleanup job after PR deletion
   cleanup:
