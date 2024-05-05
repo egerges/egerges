@@ -57,7 +57,7 @@ jobs:
   cleanup:
     name: Cleanup after PR deletion
     runs-on: ubuntu-latest
-    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
+    if: ${{ github.event_name }} == 'pull_request' && ${{ github.event.action }} == 'closed' && ${{ github.event.pull_request.merged }} == true
 
     steps:
     - name: Delete merged branch
