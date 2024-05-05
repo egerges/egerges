@@ -54,18 +54,18 @@ jobs:
           protocol: ${{ secrets.GIT_CPANEL_PROTOCOL }}
 
   # Cleanup job after PR deletion
-  cleanup:
-    name: Cleanup after PR deletion
-    runs-on: ubuntu-latest
-    if: ${{ github.event_name }} == 'pull_request' && ${{ github.event.action }} == 'closed' && ${{ github.event.pull_request.merged }} == true
+  # cleanup:
+  #   name: Cleanup after PR deletion
+  #   runs-on: ubuntu-latest
+  #   if: ${{ github.event_name }} == 'pull_request' && ${{ github.event.action }} == 'closed' && ${{ github.event.pull_request.merged }} == true
 
-    steps:
-    # Step to checkout the repository
-    - name: Checkout repository
-      uses: actions/checkout@v4
+  #   steps:
+  #   # Step to checkout the repository
+  #   - name: Checkout repository
+  #     uses: actions/checkout@v4
 
-    # delete and prune
-    - name: Delete merged branch
-      run: |
-        git fetch --prune
-        git push origin --delete ${{ github.event.pull_request.head.ref }}
+  #   # delete and prune
+  #   - name: Delete merged branch
+  #     run: |
+  #       git fetch --prune
+  #       git push origin --delete ${{ github.event.pull_request.head.ref }}
