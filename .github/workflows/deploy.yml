@@ -1,32 +1,67 @@
-on: 
+# deploy.yml
+
+# Name of the workflow
+name: Deploy website on push and after PR delete branch
+
+# on specifies the events that trigger the workflow
+on:
   push:
     branches:
       - main
-name: 🚀 Deploy website on push
+  pull_request:
+    types: [closed]
 
+# jobs define the tasks that run in the workflow
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
+  # Deploy job to deploy the website
+  deploy:
+    # Name of the job
+    name: Deploy website
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
+
+    # Steps to be executed in the job
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v4
-      
-    - name: Use Node.js 20
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-      
-    - name: 🔨 Build Project
+      # Step to checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step to setup Node.js environment
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Step to install project dependencies
+      - name: Install dependencies
+        run: |
+          cd app
+          npm install
+
+      # Step to build the project
+      - name: Build project
+        run: |
+          cd app
+          npm run build
+
+      # Step to sync built files to the server using FTP
+      - name: Sync files to server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.GIT_CPANEL_SERVER }}
+          username: ${{ secrets.GIT_CPANEL_USER }}
+          password: ${{ secrets.GIT_CPANEL_PWD }}
+          protocol: ${{ secrets.GIT_CPANEL_PROTOCOL }}
+          local-dir: ./app/build/
+
+  # Cleanup job after PR deletion
+  cleanup:
+    name: Cleanup after PR deletion
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
+
+    steps:
+    - name: Delete merged branch
       run: |
-        npm install
-        npm run build
-    
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ${{ secrets.GIT_CPANEL_SERVER }}
-        username: ${{ secrets.GIT_CPANEL_USER }}
-        password: ${{ secrets.GIT_CPANEL_PWD }}
-        protocol: ${{ secrets.GIT_CPANEL_PROTOCOL }}
-        local-dir: ./app/build/
+        git fetch --prune
+        git push origin --delete ${{ github.event.pull_request.head.ref }}
