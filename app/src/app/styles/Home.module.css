@@ -1,0 +1,32 @@
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: white;
+  position: relative;
+}
+
+.terminalContainer {
+  margin-top: 50px;
+  height: 75vh;
+}
+
+.waveSection {
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.profile {
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
+.skills {
+  margin-top: 50px;
+}
+
+.contact {
+  margin-top: 50px;
+}

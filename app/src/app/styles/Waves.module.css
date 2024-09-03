@@ -1,0 +1,17 @@
+.waves {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: url("/Waves.svg") repeat-x;
+  background-size: cover;
+  animation: animateWaves 10s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}

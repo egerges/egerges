@@ -1,0 +1,23 @@
+.timeline {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.timelineItem {
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  border-left: 4px solid var(--accent-color);
+  position: relative;
+}
+
+.timelineItem h4 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.timelineItem p {
+  margin: 0;
+  font-size: 1rem;
+}

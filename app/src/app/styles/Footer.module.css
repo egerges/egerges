@@ -1,0 +1,29 @@
+.footer {
+  padding: 1.5rem;
+  background-color: var(--primary-color);
+  text-align: center;
+  border-top: 1px solid var(--secondary-color);
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.socialLinks {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.socialLinks a {
+  color: var(--secondary-color);
+  transition: color 0.3s ease;
+}
+
+.socialLinks a:hover {
+  color: var(--accent-color);
+}

@@ -1,0 +1,17 @@
+.debugConsole {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  padding: 4rem;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.debugConsole p {
+  font-size: 1.5rem;
+}
+
+.debugConsole .error {
+  font-weight: bold;
+}
