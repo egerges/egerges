@@ -1,0 +1,20 @@
+.blog {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: var(--primary-color);
+}
+
+.blogPost {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--primary-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.blogPost:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}

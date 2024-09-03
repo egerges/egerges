@@ -1,0 +1,16 @@
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: var(--primary-color);
+}
+
+.featuredProject {
+  grid-column: span 2;
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  border-radius: 8px;
+  color: var(--primary-color);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
