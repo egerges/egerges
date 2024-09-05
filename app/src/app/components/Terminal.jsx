@@ -60,7 +60,7 @@ const Terminal = () => {
         <span className={styles.dot} style={{ background: "#27C93F" }}></span>
       </div>
       <div className={styles.body}>
-        <pre>{text}</pre>
+        <pre className={styles.preText}>{text}</pre>
       </div>
     </div>
   );

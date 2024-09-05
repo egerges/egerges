@@ -6,6 +6,13 @@
   --font-secondary: "Open Sans", sans-serif;
 }
 
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -13,8 +20,6 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: var(--font-primary);
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
 }
 
 a {

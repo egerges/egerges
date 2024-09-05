@@ -1,0 +1,155 @@
+.finder {
+  width: 75vw;
+  border: 1px solid #444;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #2d2d2d;
+  margin: 0 auto;
+  color: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.topBar {
+  display: flex;
+  padding: 10px;
+  background-color: #444;
+  border-bottom: 1px solid #444;
+  color: #ffffff;
+}
+
+.windowControl {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ff5f56;
+  margin-right: 6px;
+}
+
+.windowControl:nth-child(2) {
+  background-color: #ffbd2e;
+}
+
+.windowControl:nth-child(3) {
+  background-color: #27c93f;
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  width: 150px;
+  background-color: #2d2d2da9;
+  border-right: 1px solid #444;
+  padding: 10px;
+  text-align: left;
+  /* color: #ffffff; */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.sidebar li {
+  padding: 8px 0;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.favoriteListItem {
+  color: #cbcbcb;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 20px;
+}
+
+.file {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.fileIcon {
+  width: 50px;
+  height: 50px;
+  background-image: url("/Logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.fileDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.downloadButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.downloadButton:hover {
+  background-color: #0056b3;
+}
+
+.previewContainer {
+  margin: 20px;
+  position: relative;
+}
+
+.preview {
+  /* Styling for the document preview */
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  position: relative;
+}
+
+.previewImage {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: contain;
+}
+
+/* Pagination styling */
+.pagination {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgb(26 26 26 / 80%);
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.pagination button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.pagination span {
+  font-size: 16px;
+}
+
+/* Show pagination only on hover */
+.previewContainer:hover .pagination {
+  opacity: 1;
+}

@@ -9,12 +9,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@babel/runtime": "^7.25.6",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
     "@tsparticles/react": "^3.0.0",
     "framer-motion": "^11.3.31",
     "next": "^14.2.3",
+    "pdf-viewer-reactjs": "^2.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-draggable": "^4.4.6",
+    "react-pdf": "^9.1.0",
     "react-tsparticles": "^2.12.2",
     "tsparticles": "^3.5.0"
   },
