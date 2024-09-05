@@ -4,6 +4,7 @@
   max-width: 600px;
   margin: 0 auto;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
 }
 
 .header {
@@ -21,6 +22,7 @@
 }
 
 .body {
+  background-color: #2d2d2d;
   padding: 20px;
   color: #ffffff;
   font-family: "Courier New", Courier, monospace;
@@ -28,4 +30,11 @@
   white-space: pre-wrap;
   min-height: 150px;
   text-align: left; /* Ensure the text is aligned to the left */
+  border-radius: 8px;
+}
+
+.preText {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  text-wrap: pretty;
 }

@@ -3,11 +3,11 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import Terminal from "./components/Terminal";
-import Waves from "./components/Waves";
+import Finder from "./components/Finder";
 import AboutMe from "./components/AboutMe";
-import SkillsShowcase from "./components/SkillsShowcase";
 import ContactForm from "./components/ContactForm";
 import styles from "./styles/Home.module.css";
+import Carousel from "./components/Carousel";
 
 const Home = () => {
   return (
@@ -18,11 +18,11 @@ const Home = () => {
       <div className={styles.profile}>
         <AboutMe />
       </div>
-      <div className={styles.skills}>
-        <SkillsShowcase />
+      <div className={styles.profile}>
+        <Finder />
       </div>
-      <div className={styles.contact}>
-        <ContactForm />
+      <div className={styles.skills}>
+        <Carousel />
       </div>
     </div>
   );

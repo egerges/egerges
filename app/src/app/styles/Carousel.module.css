@@ -1,0 +1,59 @@
+.carouselContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  width: fit-content;
+  padding: 0 20px;
+}
+
+.techImage {
+  width: 100px;
+  height: 100px;
+  margin: 0 50px;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+
+.leftToRight {
+  animation: leftToRight linear infinite;
+}
+
+.rightToLeft {
+  animation: rightToLeft linear infinite;
+}
+
+/* Animation for left-to-right carousel */
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Animation for right-to-left carousel */
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Ensure carousel speeds can vary based on scroll */
+.carousel {
+  animation-duration: 120s; /* Default duration for slow speed */
+  animation-iteration-count: infinite;
+}
