@@ -5,9 +5,11 @@ import NavBar from "./components/NavBar";
 import Terminal from "./components/Terminal";
 import Finder from "./components/Finder";
 import AboutMe from "./components/AboutMe";
-import ContactForm from "./components/ContactForm";
+import BlogCarousel from "./components/BlogCarousel";
 import styles from "./styles/Home.module.css";
 import Carousel from "./components/Carousel";
+
+import blogData from "./data/blogs.json";
 
 const Home = () => {
   return (
@@ -23,6 +25,9 @@ const Home = () => {
       </div>
       <div className={styles.skills}>
         <Carousel />
+      </div>
+      <div className={styles.skills}>
+        <BlogCarousel blogs={blogData} />
       </div>
     </div>
   );

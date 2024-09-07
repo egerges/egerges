@@ -25,7 +25,7 @@ const NavBar = () => {
             <a href="#experience">2. Experience</a>
           </li>
           <li>
-            <a href="#blog">3. Blog</a>
+            <a href="/blog">3. Blog</a>
           </li>
           <li>
             <a href="#contact">4. Let's Connect</a>

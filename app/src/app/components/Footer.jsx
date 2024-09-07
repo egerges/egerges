@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Logo and description */}
         <div className={styles.aboutMe}>
           <a href="/" className={styles.logo}>
-            <img src="/images/Logo.svg" alt="Logo" />
+            <img src="/Logo.svg" alt="Logo" />
           </a>
           <p className={styles.description}>
             I'm Elio Gerges, a full-stack developer passionate about creating

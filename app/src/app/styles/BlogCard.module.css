@@ -1,0 +1,73 @@
+.blogCard {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.category {
+  color: #fa3737;
+}
+
+.blogContent {
+  flex: 2;
+  padding-right: 20px;
+  color: #888;
+}
+
+.blogContent h3 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.blogContent h3 a:hover {
+  text-decoration: underline;
+}
+
+.blogMeta {
+  display: flex;
+  gap: 10px;
+  color: #a09f9f;
+  font-size: 0.875rem;
+}
+
+.blogImage {
+  flex: 1;
+}
+
+.blogImage img {
+  width: 300px;
+  height: 180px;
+  object-fit: contain;
+}
+
+.tagCloud {
+  margin-top: 15px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #ff6347;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 0.875rem;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .blogCard {
+    flex-direction: column-reverse;
+  }
+
+  .blogContent {
+    padding-right: 0;
+  }
+
+  .blogImage img {
+    width: 100%;
+    height: auto;
+  }
+}

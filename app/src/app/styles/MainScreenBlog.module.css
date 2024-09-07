@@ -1,0 +1,28 @@
+.blogContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blogImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.blogInfo {
+  margin-top: 15px;
+}
+
+.blogInfo h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.blogInfo p {
+  color: #666;
+}
