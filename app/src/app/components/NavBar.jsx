@@ -37,7 +37,7 @@ const NavBar = () => {
             </a>
           </li>
           <li>
-            <a href="#contact">
+            <a href="/contact">
               <span className={styles.redText}>4. </span>Let's Connect
             </a>
           </li>
