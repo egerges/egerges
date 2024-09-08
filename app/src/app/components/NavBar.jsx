@@ -14,7 +14,9 @@ const NavBar = () => {
   return (
     <header className={styles.navbar}>
       <div className={styles.logoContainer}>
-        <Image src="/Logo.svg" alt="Logo" width={50} height={50} />
+        <a href="/">
+          <Image src="/Logo.svg" alt="Logo" width={50} height={50} />
+        </a>
       </div>
       <nav className={`${styles.navLinks} ${isOpen ? styles.open : ""}`}>
         <ul>

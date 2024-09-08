@@ -1,21 +1,23 @@
-import React, { useState, useEffect } from "react";
+"use client";
+
+import React from "react";
 import MainScreenBlog from "./MainScreenBlog";
+import blogData from "../data/blogs.json";
 import styles from "../styles/BlogCarousel.module.css";
 
-const BlogCarousel = ({ blogs = [] }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % blogs.length);
-    }, 3000); // Change slide every 3 seconds
-
-    return () => clearInterval(interval);
-  }, [blogs.length]);
+const BlogCarousel = () => {
+  // Filter favourite blogs
+  const favouriteBlogs = blogData.filter((blog) => blog.favourite);
 
   return (
     <div className={styles.carouselContainer}>
-      <MainScreenBlog blog={blogs[currentIndex]} />
+      {favouriteBlogs.map((blog, index) => (
+        <MainScreenBlog
+          key={index}
+          blog={blog}
+          isEven={index % 2 === 0} // Reverse layout for even-indexed blogs
+        />
+      ))}
     </div>
   );
 };

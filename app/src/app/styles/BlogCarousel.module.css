@@ -1,9 +1,5 @@
 .carouselContainer {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.carouselContainer div {
-  transition: transform 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
