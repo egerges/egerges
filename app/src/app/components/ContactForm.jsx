@@ -98,19 +98,42 @@ const ContactForm = () => {
         </h2>
         <ul>
           <li>
-            <FontAwesomeIcon icon={faMapMarkerAlt} /> Pomona, California
+            <FontAwesomeIcon icon={faMapMarkerAlt} />{" "}
+            <span className={styles.contactText}>Pomona, California</span>
           </li>
           <li>
-            <FontAwesomeIcon icon={faMapMarkerAlt} /> Toronto, Ontario
+            <FontAwesomeIcon icon={faMapMarkerAlt} />{" "}
+            <span className={styles.contactText}>Toronto, Ontario</span>
           </li>
           <li>
-            <FontAwesomeIcon icon={faPhone} /> +1 647 961 4567
+            <FontAwesomeIcon icon={faPhone} />{" "}
+            <a
+              href="tel:+16479614567"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className={styles.contactText}>+1 (647) 961 - 4567</span>
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faEnvelope} /> info@eliogerges.com
+            <FontAwesomeIcon icon={faEnvelope} />{" "}
+            <a
+              href="mailto:info@eliogerges.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className={styles.contactText}>info@eliogerges.com</span>
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faGlobe} /> eliogerges.com
+            <FontAwesomeIcon icon={faGlobe} />{" "}
+            <a
+              href="https://eliogerges.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className={styles.contactText}>eliogerges.com</span>
+            </a>
           </li>
           <li>
             <a
@@ -118,7 +141,8 @@ const ContactForm = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+              <FontAwesomeIcon icon={faLinkedin} />{" "}
+              <span className={styles.contactText}>LinkedIn</span>
             </a>
           </li>
           <li>
@@ -127,7 +151,8 @@ const ContactForm = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faGithub} /> GitHub
+              <FontAwesomeIcon icon={faGithub} />{" "}
+              <span className={styles.contactText}>GitHub</span>
             </a>
           </li>
           <li>
@@ -136,7 +161,8 @@ const ContactForm = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faMedium} /> Medium
+              <FontAwesomeIcon icon={faMedium} />{" "}
+              <span className={styles.contactText}>Medium</span>
             </a>
           </li>
         </ul>
