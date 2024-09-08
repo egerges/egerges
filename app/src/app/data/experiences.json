@@ -1,0 +1,26 @@
+[
+  {
+    "year": "2023",
+    "jobTitle": "Full Stack Developer",
+    "company": "BitsProof Inc.",
+    "startDate": "January 2023",
+    "endDate": "Present",
+    "description": "Developed a Vue.js web application for ID validation, reducing processing time by 30%. Built a Next.js web application for user management and role-based access control, improving efficiency by 40%. Optimized JavaScript performance across multiple applications, enhancing user experience. Created a cross-platform mobile app in Flutter, featuring user sign-up, login, OTP verification, and in-app notifications via WebSockets, leading to a 25% increase in user experience. Integrated Google ML for liveness detection, reducing fraudulent login attempts by 35%. Developed high-performance APIs in Go, boosting API performance by 50%. Containerized applications with Docker and automated deployments using GitHub Actions, accelerating deployment by 40%."
+  },
+  {
+    "year": "2021",
+    "jobTitle": "Personal Banking Associate",
+    "company": "TD Canada Trust",
+    "startDate": "November 2021",
+    "endDate": "May 2023",
+    "description": "Managed a high volume of tasks, including data handling, documentation, and record management, with precision and efficiency. Demonstrated strong organizational and time management skills, consistently meeting deadlines."
+  },
+  {
+    "year": "2020",
+    "jobTitle": "Software Developer",
+    "company": "CMA CGM",
+    "startDate": "December 2020",
+    "endDate": "July 2021",
+    "description": "Created a web application for the HR team to build a digital business card generation system using vanilla HTML, CSS, and JavaScript, later migrating to Handlebars, reducing code redundancy by 20%. Developed a feature allowing the conversion of physical business cards into dynamic SVGs for download as PNGs, increasing user satisfaction by 25%. Initiated and created custom animated designs using CSS for loaders, improving user experience and engagement by 15%."
+  }
+]
