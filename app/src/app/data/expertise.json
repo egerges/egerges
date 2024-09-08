@@ -1,0 +1,33 @@
+[
+    {
+      "title": "JavaScript & TypeScript",
+      "description": "Strong professional experience in JavaScript (ES6+), React, TypeScript, and Node.js.",
+      "icon": "/tech-stack/js.png"
+    },
+    {
+      "title": "GoLang Development",
+      "description": "Expertise in developing high-performance APIs with Go, boosting application scalability.",
+      "icon": "/tech-stack/go.png"
+    },
+    {
+      "title": "Responsive Design",
+      "description": "In-depth knowledge of responsive design methodologies and techniques.",
+      "icon": "/tech-stack/responsive.webp"
+    },
+    {
+      "title": "Cloud & DevOps",
+      "description": "Experience with AWS Amplify, AWS Rekognition, AWS Cognito, and Docker for containerization.",
+      "icon": "/tech-stack/cloud.png"
+    },
+    {
+      "title": "Testing & QA",
+      "description": "Proficiency in unit testing, integration testing, and QA coordination.",
+      "icon": "/tech-stack/testing.png"
+    },
+    {
+      "title": "Agile Workflow",
+      "description": "Hands-on experience in Agile workflow development and peer code review.",
+      "icon": "/tech-stack/agile.png"
+    }
+  ]
+  

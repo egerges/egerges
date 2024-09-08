@@ -1,0 +1,15 @@
+.timelineContainer {
+  margin-top: 40px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-left: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
