@@ -14,23 +14,32 @@ const NavBar = () => {
   return (
     <header className={styles.navbar}>
       <div className={styles.logoContainer}>
-        <a href="/">
+        <a href="/" className={styles.logoLink}>
           <Image src="/Logo.svg" alt="Logo" width={50} height={50} />
+          <h2>Elio Gerges</h2>
         </a>
       </div>
       <nav className={`${styles.navLinks} ${isOpen ? styles.open : ""}`}>
         <ul>
           <li>
-            <a href="#portfolio">1. Portfolio</a>
+            <a href="/portfolio">
+              <span className={styles.redText}>1. </span>Portfolio
+            </a>
           </li>
           <li>
-            <a href="#experience">2. Experience</a>
+            <a href="/experience">
+              <span className={styles.redText}>2. </span>Experience
+            </a>
           </li>
           <li>
-            <a href="/blog">3. Blog</a>
+            <a href="/blog">
+              <span className={styles.redText}>3. </span>Blog
+            </a>
           </li>
           <li>
-            <a href="#contact">4. Let's Connect</a>
+            <a href="#contact">
+              <span className={styles.redText}>4. </span>Let's Connect
+            </a>
           </li>
         </ul>
       </nav>

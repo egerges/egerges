@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import NavBar from "./components/NavBar";
 import Terminal from "./components/Terminal";
 import Finder from "./components/Finder";
 import AboutMe from "./components/AboutMe";
