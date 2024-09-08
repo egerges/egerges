@@ -1,0 +1,78 @@
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.contactForm {
+  width: 45%;
+  background-color: #fa3737;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+}
+
+.contactForm h2 {
+  margin-bottom: 20px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contactForm textarea {
+  min-height: 120px;
+}
+
+.sendButton {
+  background-color: #ffffff;
+  color: #fa3737;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 1px solid #fa3737;
+}
+
+.sendButton:hover {
+  background-color: #fa3737;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.successMessage {
+  margin-top: 15px;
+  color: #ffffff;
+}
+
+.contactInfo {
+  width: 45%;
+}
+
+.contactInfo h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.contactInfo p {
+  margin-bottom: 15px;
+}
+
+.contactInfo ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contactInfo li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
