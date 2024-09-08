@@ -26,11 +26,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step to setup Node.js environment
+      # Step to setup Node.js environment (v20.3.1)
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20.3.1"
 
       # Step to install project dependencies
       - name: Install dependencies
@@ -52,20 +52,5 @@ jobs:
           username: ${{ secrets.GIT_CPANEL_USER }}
           password: ${{ secrets.GIT_CPANEL_PWD }}
           protocol: ${{ secrets.GIT_CPANEL_PROTOCOL }}
-
-  # Cleanup job after PR deletion
-  # cleanup:
-  #   name: Cleanup after PR deletion
-  #   runs-on: ubuntu-latest
-  #   if: ${{ github.event_name }} == 'pull_request' && ${{ github.event.action }} == 'closed' && ${{ github.event.pull_request.merged }} == true
-
-  #   steps:
-  #   # Step to checkout the repository
-  #   - name: Checkout repository
-  #     uses: actions/checkout@v4
-
-  #   # delete and prune
-  #   - name: Delete merged branch
-  #     run: |
-  #       git fetch --prune
-  #       git push origin --delete ${{ github.event.pull_request.head.ref }}
+          local-dir: app/.next/ # Directory with the built app
+          server-dir: /public_html/your-app-dir/ # Replace with your actual cPanel deployment directory
