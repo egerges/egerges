@@ -38,8 +38,8 @@
 
 .viewPostButton {
   padding: 10px 20px;
-  background-color: #ff6347;
-  color: white;
+  background-color: var(--accent-color);
+  color: var(--third-color);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -47,7 +47,7 @@
 }
 
 .viewPostButton:hover {
-  background-color: #ff4500;
+  background-color: var(--accent-color);
 }
 
 @media screen and (max-width: 768px) {

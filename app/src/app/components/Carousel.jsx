@@ -47,6 +47,10 @@ const Carousel = () => {
           ...techImages.carouselOne,
           ...techImages.carouselOne,
           ...techImages.carouselOne,
+          ...techImages.carouselOne,
+          ...techImages.carouselOne,
+          ...techImages.carouselOne,
+          ...techImages.carouselOne,
         ].map((image, index) => (
           <img
             key={index}
@@ -69,6 +73,10 @@ const Carousel = () => {
           ...techImages.carouselTwo,
           ...techImages.carouselTwo,
           ...techImages.carouselTwo,
+          ...techImages.carouselTwo,
+          ...techImages.carouselTwo,
+          ...techImages.carouselTwo,
+          ...techImages.carouselTwo,
         ].map((image, index) => (
           <img
             key={index}
@@ -85,6 +93,10 @@ const Carousel = () => {
         style={{ animationDuration: "100s" }}
       >
         {[
+          ...techImages.carouselThree,
+          ...techImages.carouselThree,
+          ...techImages.carouselThree,
+          ...techImages.carouselThree,
           ...techImages.carouselThree,
           ...techImages.carouselThree,
           ...techImages.carouselThree,

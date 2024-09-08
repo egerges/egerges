@@ -2,11 +2,13 @@
   display: flex;
   margin-bottom: 30px;
   position: relative;
+  flex-direction: row-reverse;
+  /* margin-left: 80px; */
 }
 
 .year {
   position: relative;
-  margin-right: 20px;
+  margin-left: 20px;
   min-width: 60px;
 }
 
@@ -16,23 +18,23 @@
 }
 
 .content {
-  border-left: 2px solid var(--accent-color);
-  padding-left: 20px;
-  margin-left: 10px;
+  border-right: 2px solid var(--accent-color);
+  padding-right: 20px;
+  margin-right: 10px;
 }
 
-.jobTitle {
+.degree {
   font-size: 1.2rem;
   margin-bottom: 5px;
 }
 
-.company {
+.institution {
   font-weight: normal;
   font-size: 1rem;
   color: #949494;
 }
 
-.jobDescription {
+.educationDescription {
   font-size: 1rem;
   margin-bottom: 5px;
 }

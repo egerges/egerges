@@ -1,0 +1,24 @@
+[
+    {
+      "institution": "Saint Joseph University, Lebanon",
+      "degree": "BA in Computer Science, Minor in Business",
+      "startDate": "2018",
+      "endDate": "2021",
+      "description": "Graduated with a perfect GPA of 4.0, gaining in-depth knowledge in software development, algorithms, data structures, and business management. Developed a strong foundation in full-stack web development, with a focus on JavaScript, Java, and database systems. Completed several projects, including a capstone project on optimizing performance in distributed systems."
+    },
+    {
+      "institution": "Humber College, Toronto",
+      "degree": "Graduate Degree in Web Design and Development",
+      "startDate": "2022",
+      "endDate": "2023",
+      "description": "Focused on mastering modern web technologies and best practices in user experience (UX) and responsive design. Gained expertise in JavaScript frameworks, such as React and Vue.js, and in full-stack development using Node.js. Graduated with a GPA of 3.5, with key projects focused on developing interactive web applications with a strong emphasis on accessibility and SEO."
+    },
+    {
+      "institution": "Stanford d.School",
+      "degree": "Design Thinking and Innovation",
+      "startDate": "2022",
+      "endDate": "2022",
+      "description": "Completed an intensive course on Design Thinking, focusing on innovation, creativity, and problem-solving approaches. Applied design thinking frameworks to various software development projects, learning how to build user-centered solutions and enhance product development cycles."
+    }
+  ]
+  

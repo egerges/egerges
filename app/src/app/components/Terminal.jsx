@@ -23,7 +23,7 @@ const Terminal = () => {
     "Welcome to my web portfolio...\n",
     "\n",
     "developer@eliogerges.com Application %: ./instruction.sh\n",
-    "Scroll for more...\n",
+    "Scroll down for more...\n",
   ];
 
   useEffect(() => {
@@ -47,7 +47,7 @@ const Terminal = () => {
         // All strings have been processed, clear the interval
         clearInterval(typingInterval);
       }
-    }, 35);
+    }, 20);
 
     return () => clearInterval(typingInterval);
   }, []);

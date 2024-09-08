@@ -21,24 +21,24 @@ const NavBar = () => {
       </div>
       <nav className={`${styles.navLinks} ${isOpen ? styles.open : ""}`}>
         <ul>
-          <li>
+          {/* <li>
             <a href="/portfolio">
               <span className={styles.redText}>1. </span>Portfolio
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="/experience">
-              <span className={styles.redText}>2. </span>Experience
+              <span className={styles.redText}>1. </span>Experience
             </a>
           </li>
           <li>
             <a href="/blog">
-              <span className={styles.redText}>3. </span>Blog
+              <span className={styles.redText}>2. </span>Blog
             </a>
           </li>
           <li>
             <a href="/contact">
-              <span className={styles.redText}>4. </span>Let's Connect
+              <span className={styles.redText}>3. </span>Let's Connect
             </a>
           </li>
         </ul>

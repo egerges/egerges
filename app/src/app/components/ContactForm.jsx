@@ -1,6 +1,18 @@
 "use client";
 
 import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPhone,
+  faEnvelope,
+  faMapMarkerAlt,
+  faGlobe,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faLinkedin,
+  faGithub,
+  faMedium,
+} from "@fortawesome/free-brands-svg-icons";
 import styles from "../styles/ContactForm.module.css";
 
 const ContactForm = () => {
@@ -80,15 +92,79 @@ const ContactForm = () => {
       </div>
 
       <div className={styles.contactInfo}>
-        <h2>More ways to reach me...</h2>
-        <p>We’re open for any suggestion or just to have a chat</p>
+        <h2>
+          Got a cool project, need some code magic, or want to hire me? Let's
+          Chat!
+        </h2>
         <ul>
           <li>
-            📍 Address: 198 West 21th Street, Suite 721 New York, NY 10016
+            <FontAwesomeIcon icon={faMapMarkerAlt} />{" "}
+            <span className={styles.contactText}>Pomona, California</span>
           </li>
-          <li>📞 Phone: +1 123 2355 98</li>
-          <li>📧 Email: info@yourdomain.com</li>
-          <li>🌐 Website: yoursite.com</li>
+          <li>
+            <FontAwesomeIcon icon={faMapMarkerAlt} />{" "}
+            <span className={styles.contactText}>Toronto, Ontario</span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faPhone} />{" "}
+            <a
+              href="tel:+16479614567"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className={styles.contactText}>+1 (647) 961 - 4567</span>
+            </a>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faEnvelope} />{" "}
+            <a
+              href="mailto:info@eliogerges.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className={styles.contactText}>info@eliogerges.com</span>
+            </a>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faGlobe} />{" "}
+            <a
+              href="https://eliogerges.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className={styles.contactText}>eliogerges.com</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/elio-gerges"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />{" "}
+              <span className={styles.contactText}>LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/egerges"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faGithub} />{" "}
+              <span className={styles.contactText}>GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://medium.com/@elio.gerges2000"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faMedium} />{" "}
+              <span className={styles.contactText}>Medium</span>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

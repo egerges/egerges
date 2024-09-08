@@ -18,7 +18,7 @@
   height: 100%;
   /* border-radius: 50%;
   overflow: hidden;
-  background-color: #fa3737; /* Circle Background Color */
+  background-color: var(--accent-color); /* Circle Background Color */
   /* margin-right: 50px;  */
   display: flex;
   align-items: center;
@@ -33,12 +33,12 @@
 .terminalCommand {
   font-family: "Courier New", Courier, monospace;
   font-size: 16px;
-  color: black;
+  color: var(--primary-color);
   margin-bottom: 20px;
 }
 
 .email {
-  color: #fa3737;
+  color: var(--accent-color);
   font-weight: bold;
 }
 
@@ -54,16 +54,16 @@
 .learnMore {
   font-family: "Courier New", Courier, monospace;
   font-size: 16px;
-  color: #000000;
+  color: var(--primary-color);
   text-decoration: none;
-  border-bottom: 1px solid #fa3737;
+  border-bottom: 1px solid var(--accent-color);
   padding-bottom: 2px;
   transition: all 0.3s ease;
 }
 
 .learnMore:hover {
-  color: #fa3737;
-  border-color: #fa3737;
+  color: var(--accent-color);
+  border-color: var(--accent-color);
   text-decoration: none;
 }
 

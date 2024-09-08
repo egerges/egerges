@@ -10,7 +10,7 @@ export default function ProjectCard({ project }) {
       <p>{project.description}</p>
       <motion.div
         className={styles.commitMessage}
-        whileHover={{ color: "#FA3737" }}
+        whileHover={{ color: "var(--accent-color)" }}
       >
         {project.commitMessage}
       </motion.div>
