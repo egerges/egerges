@@ -1,0 +1,102 @@
+[
+    {
+      "title": "My Journey as a Developer: How Self-Started Projects Taught Me Everything",
+      "description": "Becoming a software developer is a journey that never really ends. Every new technology, framework, or tool offers an opportunity to learn...",
+      "publishedDate": "2024-09-06T00:01:00Z",
+      "readLength": "4 min read",
+      "url": "/blogs/my-journey-as-a-developer",
+      "imageUrl": "/blogs/blog1.webp",
+      "favourite": true,
+      "tags": ["JavaScript", "Developer Journey", "Self-Learning", "Motivation"],
+      "author": "Elio Gerges"
+    },
+    {
+      "title": "10 Do’s and Don’ts for New Developers Starting with Next.js",
+      "description": "Next.js has rapidly become a go-to framework for building modern web applications, thanks to its powerful features like server-side...",
+      "publishedDate": "2024-09-06T00:07:00Z",
+      "readLength": "5 min read",
+      "url": "/blogs/dos-and-donts-with-nextjs",
+      "imageUrl": "/blogs/blog2.webp",
+      "favourite": false,
+      "tags": ["Next.js", "Web Development", "Best Practices"],
+      "author": "Elio Gerges"
+    },
+    {
+      "title": "Top 10 JavaScript Updates in 2024 You Should Know About",
+      "description": "JavaScript, the language that powers the web, continues to evolve year after year. In 2024, new features and updates have further...",
+      "publishedDate": "2024-09-06T00:18:00Z",
+      "readLength": "4 min read",
+      "url": "/blogs/top-js-updates-2024",
+      "imageUrl": "/blogs/blog3.webp",
+      "favourite": true,
+      "tags": ["JavaScript", "Updates", "2024", "New Features"],
+      "author": "Elio Gerges"
+    },
+    {
+      "title": "20 Underrated JavaScript Shortcuts for Fixing Common Development Issues (Part 2)",
+      "description": "In part one, we explored some essential JavaScript shortcuts that improve code efficiency and readability. However, there are plenty of...",
+      "publishedDate": "2024-09-06T00:38:00Z",
+      "readLength": "5 min read",
+      "url": "/blogs/underrated-js-shortcuts-part2",
+      "imageUrl": "/blogs/blog4.webp",
+      "favourite": false,
+      "tags": ["JavaScript", "Shortcuts", "Code Efficiency", "Tips"],
+      "author": "Elio Gerges"
+    },
+    {
+      "title": "10 JavaScript Shortcuts to Save Hours of Coding",
+      "description": "As a JavaScript developer, writing clean, efficient, and concise code can greatly reduce development time. Understanding some handy...",
+      "publishedDate": "2024-09-06T03:00:00Z",
+      "readLength": "4 min read",
+      "url": "/blogs/js-shortcuts-save-hours",
+      "imageUrl": "/blogs/blog5.webp",
+      "favourite": true,
+      "tags": ["JavaScript", "Code Efficiency", "Shortcuts", "Productivity"],
+      "author": "Elio Gerges"
+    },
+    {
+      "title": "From Code to Commerce: How a Break from Software Development Led Me to Banking, Broadened My Skills",
+      "description": "In 2021, fresh out of university with a Bachelor's degree in Computer Science, I made a significant life change by moving from Lebanon to...",
+      "publishedDate": "2024-09-02T00:00:00Z",
+      "readLength": "7 min read",
+      "url": "/blogs/code-to-commerce",
+      "imageUrl": "/blogs/blog6.webp",
+      "favourite": false,
+      "tags": ["Career", "Software Development", "Banking", "Skills"],
+      "author": "Elio Gerges"
+    },
+    {
+      "title": "Embracing Continuous Learning and Innovation: My Journey as an Intermediate Software Engineer",
+      "description": "In the fast-paced world of technology, where change is the only constant, I have found my passion in continuous learning and innovation...",
+      "publishedDate": "2024-09-02T00:00:00Z",
+      "readLength": "5 min read",
+      "url": "/blogs/continuous-learning-innovation",
+      "imageUrl": "/blogs/blog7.webp",
+      "favourite": true,
+      "tags": ["Learning", "Innovation", "Software Engineering", "Growth"],
+      "author": "Elio Gerges"
+    },
+    {
+      "title": "Building a Robust Facial Comparison System with AWS Rekognition and GoLang: A Developer’s Journey",
+      "description": "Introduction",
+      "publishedDate": "2024-09-02T00:00:00Z",
+      "readLength": "5 min read",
+      "url": "/blogs/facial-comparison-system-aws-golang",
+      "imageUrl": "/blogs/blog8.webp",
+      "favourite": false,
+      "tags": ["AWS Rekognition", "GoLang", "Facial Comparison", "Machine Learning"],
+      "author": "Elio Gerges"
+    },
+    {
+      "title": "Building a Liveness Detection System with AWS Rekognition and OpenCV: A Developer’s Journey",
+      "description": "Introduction",
+      "publishedDate": "2024-09-01T00:00:00Z",
+      "readLength": "5 min read",
+      "url": "/blogs/liveness-detection-system-aws-opencv",
+      "imageUrl": "/blogs/blog9.webp",
+      "favourite": false,
+      "tags": ["AWS Rekognition", "OpenCV", "Liveness Detection", "AI"],
+      "author": "Elio Gerges"
+    }
+  ]
+  

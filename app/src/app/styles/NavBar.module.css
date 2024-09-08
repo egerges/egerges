@@ -7,7 +7,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 90%;
+  width: 95%;
   z-index: 9999;
 }
 
@@ -52,6 +52,9 @@
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    width: 90%;
+  }
   .navLinks {
     position: absolute;
     top: 60px;
