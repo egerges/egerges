@@ -98,21 +98,23 @@ const ContactForm = () => {
         </h2>
         <ul>
           <li>
-            <FontAwesomeIcon icon={faMapMarkerAlt} /> 198 West 21st Street,
-            Suite 721 New York, NY 10016
+            <FontAwesomeIcon icon={faMapMarkerAlt} /> Pomona, California
           </li>
           <li>
-            <FontAwesomeIcon icon={faPhone} /> +1 123 2355 98
+            <FontAwesomeIcon icon={faMapMarkerAlt} /> Toronto, Ontario
           </li>
           <li>
-            <FontAwesomeIcon icon={faEnvelope} /> info@yourdomain.com
+            <FontAwesomeIcon icon={faPhone} /> +1 647 961 4567
           </li>
           <li>
-            <FontAwesomeIcon icon={faGlobe} /> yoursite.com
+            <FontAwesomeIcon icon={faEnvelope} /> info@eliogerges.com
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faGlobe} /> eliogerges.com
           </li>
           <li>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://linkedin.com/in/elio-gerges"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -121,7 +123,7 @@ const ContactForm = () => {
           </li>
           <li>
             <a
-              href="https://github.com/yourprofile"
+              href="https://github.com/egerges"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -130,7 +132,7 @@ const ContactForm = () => {
           </li>
           <li>
             <a
-              href="https://medium.com/@yourprofile"
+              href="https://medium.com/@elio.gerges2000"
               target="_blank"
               rel="noopener noreferrer"
             >

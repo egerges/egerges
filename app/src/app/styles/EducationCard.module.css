@@ -1,0 +1,40 @@
+.cardContainer {
+  display: flex;
+  margin-bottom: 30px;
+  position: relative;
+  flex-direction: row-reverse;
+  /* margin-left: 80px; */
+}
+
+.year {
+  position: relative;
+  margin-left: 20px;
+  min-width: 60px;
+}
+
+.year span {
+  font-size: 1.5rem;
+  color: var(--accent-color);
+}
+
+.content {
+  border-right: 2px solid var(--accent-color);
+  padding-right: 20px;
+  margin-right: 10px;
+}
+
+.degree {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.institution {
+  font-weight: normal;
+  font-size: 1rem;
+  color: #949494;
+}
+
+.educationDescription {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
