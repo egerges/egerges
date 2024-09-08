@@ -16,11 +16,11 @@
 }
 
 .toggleButton.active {
-  background-color: #ff6347;
-  color: white;
+  background-color: var(--accent-color);
+  color: var(--third-color);
 }
 
 .toggleButton:hover {
-  background-color: #ff6347;
-  color: white;
+  background-color: var(--accent-color);
+  color: var(--third-color);
 }

@@ -13,10 +13,8 @@ const Footer = () => {
             <img src="/Logo.svg" alt="Logo" />
           </a>
           <p className={styles.description}>
-            I'm Elio Gerges, a full-stack developer passionate about creating
-            high-performance, maintainable, and secure applications. I
-            specialize in modern technologies and follow best practices to
-            ensure quality software.
+            Crafted with code and creativity. Let’s build something amazing—hit
+            me up when you're ready to innovate!
           </p>
         </div>
 
@@ -28,7 +26,7 @@ const Footer = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/portfolio">Portfolio</a>
+              <a href="/experience">Experience</a>
             </li>
             <li>
               <a href="/blog">Blog</a>
@@ -51,6 +49,11 @@ const Footer = () => {
             <li>
               <a href="https://www.linkedin.com/in/elio-gerges" target="_blank">
                 LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://medium.com/@elio.gerges2000" target="_blank">
+                Medium
               </a>
             </li>
           </ul>

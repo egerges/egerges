@@ -18,7 +18,7 @@ const ParticleBackground = () => {
         fullScreen: { enable: false },
         background: {
           color: {
-            value: "#000",
+            value: "var(--primary-color)",
           },
         },
         fpsLimit: 60,
@@ -46,10 +46,10 @@ const ParticleBackground = () => {
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: "#FFFFFF",
           },
           links: {
-            color: "#ffffff",
+            color: "#FFFFFF",
             distance: 150,
             enable: true,
             opacity: 0.5,

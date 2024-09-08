@@ -1,6 +1,18 @@
 "use client";
 
 import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faPhone,
+  faEnvelope,
+  faMapMarkerAlt,
+  faGlobe,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faLinkedin,
+  faGithub,
+  faMedium,
+} from "@fortawesome/free-brands-svg-icons";
 import styles from "../styles/ContactForm.module.css";
 
 const ContactForm = () => {
@@ -80,15 +92,51 @@ const ContactForm = () => {
       </div>
 
       <div className={styles.contactInfo}>
-        <h2>More ways to reach me...</h2>
-        <p>We’re open for any suggestion or just to have a chat</p>
+        <h2>
+          Got a cool project, need some code magic, or want to hire me? Let's
+          Chat!
+        </h2>
         <ul>
           <li>
-            📍 Address: 198 West 21th Street, Suite 721 New York, NY 10016
+            <FontAwesomeIcon icon={faMapMarkerAlt} /> 198 West 21st Street,
+            Suite 721 New York, NY 10016
           </li>
-          <li>📞 Phone: +1 123 2355 98</li>
-          <li>📧 Email: info@yourdomain.com</li>
-          <li>🌐 Website: yoursite.com</li>
+          <li>
+            <FontAwesomeIcon icon={faPhone} /> +1 123 2355 98
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faEnvelope} /> info@yourdomain.com
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faGlobe} /> yoursite.com
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/yourprofile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/yourprofile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faGithub} /> GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://medium.com/@yourprofile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faMedium} /> Medium
+            </a>
+          </li>
         </ul>
       </div>
     </div>

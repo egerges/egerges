@@ -15,16 +15,15 @@ const AboutMe = () => {
             Application %: whoami --verbose
           </p>
           <p className={styles.aboutText}>
-            I am a Software Engineer with expertise in JavaScript (ES6+), React,
-            TypeScript, Node.js, Go, and other modern technologies. My passion
-            lies in developing scalable, maintainable software solutions, with a
-            strong emphasis on performance optimization and responsive design. I
-            have a proven track record of delivering high-quality applications,
-            both in frontend and backend development.
+            Hey, I’m Elio Gerges—full-stack dev with a love for building sleek,
+            high-performance apps using Go, TypeScript, and Flutter. From
+            crafting cross-platform experiences to optimizing cloud
+            integrations, I keep it cutting-edge. Dive into my blog, check out
+            my projects, and explore what I’m up to!
           </p>
-          <a href="#learn-more" className={styles.learnMore}>
+          {/* <a href="#learn-more" className={styles.learnMore}>
             Learn more..
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

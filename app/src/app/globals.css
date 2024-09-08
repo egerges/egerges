@@ -1,7 +1,8 @@
 :root {
-  --primary-color: #000000;
+  --primary-color: #888888;
   --accent-color: #fa3737;
   --secondary-color: #d9d9d9;
+  --third-color: #ffffff;
   --font-primary: "IBM Plex Sans", sans-serif;
   --font-secondary: "Open Sans", sans-serif;
 }

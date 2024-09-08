@@ -7,18 +7,18 @@
 }
 
 .category {
-  color: #fa3737;
+  color: var(--accent-color);
 }
 
 .blogContent {
   flex: 2;
   padding-right: 20px;
-  color: #888;
+  color: var(--primary-color);
 }
 
 .blogContent h3 a {
   text-decoration: none;
-  color: #000000;
+  color: var(--primary-color);
 }
 
 .blogContent h3 a:hover {
@@ -48,8 +48,8 @@
 
 .tag {
   display: inline-block;
-  background-color: #ff6347;
-  color: white;
+  background-color: var(--accent-color);
+  color: var(--third-color);
   border-radius: 20px;
   padding: 5px 10px;
   font-size: 0.875rem;

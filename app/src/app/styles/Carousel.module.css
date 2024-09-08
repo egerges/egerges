@@ -53,7 +53,11 @@
 }
 
 /* Ensure carousel speeds can vary based on scroll */
-.carousel {
+.carousel,
+.leftToRight,
+.rightToLeft {
   animation-duration: 120s; /* Default duration for slow speed */
   animation-iteration-count: infinite;
+  animation-fill-mode: both; /* Ensure the animation starts immediately */
+  animation-delay: 0s; /* Start the animation immediately */
 }

@@ -1,9 +1,10 @@
 import React from "react";
 import ContactForm from "../components/ContactForm";
+import styles from "../styles/Contact.module.css";
 
 const ContactPage = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <ContactForm />
     </div>
   );

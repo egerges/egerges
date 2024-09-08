@@ -7,15 +7,16 @@
 .year {
   position: relative;
   margin-right: 20px;
+  min-width: 60px;
 }
 
 .year span {
   font-size: 1.5rem;
-  color: #ff6347;
+  color: var(--accent-color);
 }
 
 .content {
-  border-left: 2px solid #ff6347;
+  border-left: 2px solid var(--accent-color);
   padding-left: 20px;
   margin-left: 10px;
 }
