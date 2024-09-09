@@ -52,5 +52,5 @@ jobs:
           username: ${{ secrets.GIT_CPANEL_USER }}
           password: ${{ secrets.GIT_CPANEL_PWD }}
           protocol: ${{ secrets.GIT_CPANEL_PROTOCOL }}
-          local-dir: app/.next/ # Directory with the built app
+          local-dir: ./ # Directory with the built app
           server-dir: /portfolio/ # Replace with your actual cPanel deployment directory
