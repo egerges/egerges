@@ -75,28 +75,6 @@
       "favourite": true,
       "tags": ["Learning", "Innovation", "Software Engineering", "Growth"],
       "author": "Elio Gerges"
-    },
-    {
-      "title": "Building a Robust Facial Comparison System with AWS Rekognition and GoLang: A Developer’s Journey",
-      "description": "Introduction",
-      "publishedDate": "2024-09-02T00:00:00Z",
-      "readLength": "5 min read",
-      "url": "https://medium.com/@elio.gerges2000/building-a-robust-facial-comparison-system-with-aws-rekognition-and-golang-a-developers-journey-594a1c9ba0ef",
-      "imageUrl": "/blogs/blog8.webp",
-      "favourite": false,
-      "tags": ["AWS Rekognition", "GoLang", "Facial Comparison", "Machine Learning"],
-      "author": "Elio Gerges"
-    },
-    {
-      "title": "Building a Liveness Detection System with AWS Rekognition and OpenCV: A Developer’s Journey",
-      "description": "Introduction",
-      "publishedDate": "2024-09-01T00:00:00Z",
-      "readLength": "5 min read",
-      "url": "https://medium.com/@elio.gerges2000/building-a-liveness-detection-system-with-aws-rekognition-and-opencv-a-developers-journey-95840db3b113",
-      "imageUrl": "/blogs/blog9.webp",
-      "favourite": false,
-      "tags": ["AWS Rekognition", "OpenCV", "Liveness Detection", "AI"],
-      "author": "Elio Gerges"
     }
   ]
   
